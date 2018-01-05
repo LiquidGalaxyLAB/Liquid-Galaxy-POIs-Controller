@@ -73,7 +73,7 @@
     <string name="import_pois_dialog_fromPW">Import from Physical Web Beacon</string>
     <!--**********-->
 
-     <!--Beacons-->
+    <!--Beacons-->
     <string name="discovery_service_prefs_key">org.physical_web.physicalweb.DISCOVERY_SERVICE_PREFS</string>
     <plurals name="numFoundBeacons">
         <item quantity="one">Beacon Nearby</item>
@@ -84,7 +84,6 @@
     <string name="notification_view_more_beacons">View more beacons</string>
     <string name="empty_nearby_beacons_list_text">Searching for beacons</string>
     <string name="title_nearby_beacons">Found Physical Web Beacons</string>
-
 
 
     <string name="importingContents">Importing Contents</string>
@@ -263,5 +262,7 @@
     <string name="taskIpDefault">$serverIp</string>
     <string name="taskBrowserUrlDefault">$serverIp:$serverPort</string>
     <string name="clean_KML">Clean KMLS</string>
+
+    <string name="controller">Open Controller</string>
 
 </resources>
