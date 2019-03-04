@@ -18,7 +18,7 @@ android {
         }
     }
     compileSdkVersion 24
-    buildToolsVersion '25.0.2'
+    buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId "com.gsoc.ijosa.liquidgalaxycontroller"
         minSdkVersion 19
@@ -36,6 +36,7 @@ android {
 }
 
 dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile(name: 'uribeacon-library-release', ext: 'aar')
     compile 'com.android.support:appcompat-v7:24.+'
@@ -51,6 +52,7 @@ dependencies {
     compile files('libs/jsch-0.1.53.jar')
     compile files('libs/jzlib-1.1.1.jar')
 }
+
 
 
 
